@@ -1,0 +1,103 @@
+* {
+  font-family: fantasy;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background-color: rgb(18, 13, 88);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  background-image: url("images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #ccc;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.wrapper {
+  margin: 120px auto;
+  height: 80%;
+  max-width: 470px;
+  width: 100%;
+  background-color: #091315b2;
+  border-radius: 5px;
+  padding: 25px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .input_box {
+  /*display: flex;*/
+  height: 45px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.input_box input {
+  width: 85%;
+  height: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  border-radius: 50px;
+  padding-left: 15px;
+}
+
+.input_box button {
+  width: 45px;
+  height: 100%;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: #658251;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#clearbutton {
+  width: 100px;
+  height: 100%;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: #658251;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.wrapper .Todo_list {
+  position: relative;
+}
+
+.Todo_list li {
+  list-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background-color: #173b514d;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  padding: 0px 15px;
+  color: #ccc;
+}
+
+.Todo_list li span {
+  position: absolute;
+  padding: 0 15px;
+  right: 0px;
+  color: #8f7d56;
+}
